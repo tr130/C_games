@@ -57,7 +57,7 @@ int main(void)
         printf("Guess: ");
         fgets(guess, 5, stdin);
 
-        //check that guess is valid -- not finished
+        //check that guess is valid
         if(isabcd(guess [0]) && isabcd(guess[1]) && isabcd(guess[2]) && isabcd(guess[3]))
 
         {

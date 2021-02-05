@@ -12,6 +12,11 @@ int main(void)
     char code[4];
     int right_letter;
     int right_position;
+    
+    printf("MASTERMIND\n");
+    printf("Guess the four-letter combination of a, b, c and d\n");
+    printf("Each letter can be used more than once, or not at all\n");
+    printf("Good luck!\n");
 
     //generate hidden code
     srand((unsigned)time(NULL));
